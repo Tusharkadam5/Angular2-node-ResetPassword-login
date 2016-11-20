@@ -1,0 +1,15 @@
+<section class="">
+
+				<h1>Home Page</h1><br>
+				
+				 <h1>Welcome {{currentUser.companyname}}!</h1>
+				 
+				 <h3>All registered users:</h3>
+				<ul>
+					<li *ngFor="let user of users">
+						{{user.companyname}} ({{user.email}} {{user.pgone}})
+						- <a href="javascript:void" (click)="deleteUser(user._id)">Delete</a>
+					</li>
+				</ul>
+			
+</section>
