@@ -9,7 +9,7 @@
 
 ## Steps to Run
 
-# Install all the npm Dependencies and start
+ Install all the npm Dependencies and start
 ```
     npm install
 
