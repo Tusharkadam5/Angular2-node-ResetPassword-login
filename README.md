@@ -1,16 +1,19 @@
-## [ Angular2 Updated to 2.0.1 ]
-# Angular2 MEAN - Task of Register/Login/reset
+## [ Angular2 - nodejs - express - mongodb]
+# Angular2 MEAN - User login register and reset password using token.
 
 ## Prerequisites
 
 1. Latest version of Node to be installed.
-2. Install MongoDB and make sure it is running on default port 27017 (if not then please configure constants.ts and change the connection for mongoDB).
+2. Install MongoDB and make sure it is running on default port 27017
+3. Need to change the email address and password in config file for the email sending functionality.
 
 ## Steps to Run
 
-    npm install          <= install all the npm Dependencies
+# Install all the npm Dependencies and start
+```
+    npm install
 
-    gulp      <= start the Nodemon and watch for changes.
+    gulp
 ```
 
 ## Global packages
